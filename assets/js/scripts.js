@@ -16,6 +16,8 @@ $(".fas").mouseleave(function() {
 
 
   $(".fas").click(function() {
+var mano;
+
     $(this).css('background-color','green');
 
     document.getElementById("tiempo").style.visibility = "visible";
@@ -25,7 +27,15 @@ $(".fas").mouseleave(function() {
         $("#tiempo").css('visibility','hidden');
         console.log("desaparecer")
     },5000); 
+
     
+    if (this.className == "fas fa-hand-paper") mano =1;
+    if (this.className == "fas fa-hand-rock") mano =2;
+    if (this.className == "fas fa-hand-scissors") mano =3;
+
+    console.log(this.className+ " " + mano);
+
+
   });
 
 

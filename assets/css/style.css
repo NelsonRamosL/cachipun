@@ -17,6 +17,10 @@ padding: 100px;
     }
 
 
+    #tiempo{
+    visibility: hidden
+}
+
 
 .fas{
     font-size: 10rem;

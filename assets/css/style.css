@@ -17,18 +17,12 @@ padding: 100px;
     }
 
 
-    #tiempo{
-    visibility: hidden
-}
+
 
 
 .fas{
-    font-size: 10rem;
+    font-size: 5rem;
     padding: 50px;
 
 }
 
-footer{
-width: 100%;
-    padding: 100px;
-}
